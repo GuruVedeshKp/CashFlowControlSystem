@@ -1,20 +1,26 @@
-# CFCS - Credit Follow-up & Collection System
+# CFCS - Cash Flow Control System
 
-A mobile-first receivables and collections management application for small businesses.
+CFCS is a mobile receivables and collections management application built for small businesses to manage customer dues, invoices, reminders, and payment tracking.
 
 ## Features
+
+- User authentication (JWT)
+- Persistent login
 - Customer management
-- Receivables tracking
-- Partial payments
-- Payment history
-- WhatsApp reminders
-- Reminder history
+- Receivables management
+- Due date tracking
+- Partial / split payments
+- Payment history ledger
+- WhatsApp reminder integration
+- Reminder history tracking
 - PDF invoice generation
-- Document upload
+- Document upload / delete / view
 - Dashboard analytics
-- Customer ledger
+- Customer ledger history
+- Business profile customization
 
 ## Tech Stack
+
 Frontend:
 - Flutter
 
@@ -22,3 +28,17 @@ Backend:
 - NestJS
 - PostgreSQL
 - TypeORM
+
+Integrations:
+- PDFKit
+- WhatsApp Deep Links
+- Shared Preferences
+
+## Setup
+
+### Backend
+
+```bash
+cd cfcs-backend
+npm install
+npm run start:dev
