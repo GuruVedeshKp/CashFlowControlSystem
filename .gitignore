@@ -1,0 +1,34 @@
+# Flutter
+cfcs_mobile/.dart_tool/
+cfcs_mobile/.packages
+cfcs_mobile/build/
+cfcs_mobile/.flutter-plugins
+cfcs_mobile/.flutter-plugins-dependencies
+cfcs_mobile/.metadata
+cfcs_mobile/android/.gradle
+cfcs_mobile/android/local.properties
+cfcs_mobile/ios/Pods/
+cfcs_mobile/ios/.symlinks/
+cfcs_mobile/pubspec.lock
+
+# NestJS
+cfcs-backend/node_modules/
+cfcs-backend/dist/
+cfcs-backend/.env
+
+# uploads
+cfcs-backend/uploads/
+
+node_modules/
+package-lock.json
+
+# logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
