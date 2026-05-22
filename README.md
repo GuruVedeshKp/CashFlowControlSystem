@@ -36,9 +36,19 @@ Integrations:
 
 ## Setup
 
+Open Postman and get JWT
+
 ### Backend
 
 ```bash
 cd cfcs-backend
 npm install
 npm run start:dev
+```
+### Frontend
+```bash
+cd cfcs_mobile
+flutter clean
+flutter pub get
+flutter run
+```
